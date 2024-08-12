@@ -14,15 +14,15 @@ Proceedings of the 49th Annual International Symposium on Computer Architecture 
 Computing Machinery, New York, NY, USA, 27–41. **Nominated for the Best Paper Award**.
 
 ## Work Experience
-### Samsung Electronics, S.LSI Division, Sep 2014 – Aug 2019
+- Samsung Electronics, S.LSI Division, Sep 2014 – Aug 2019
   - SoC Architect
       - Evaluated PPA impact of newly introduced storage and interface components such as UFS, PCIe, USB.
       - Awards: Selected for the Ph.D Fellowship program which is awarded to one out of 9000 employees.
-### Samsung Electronics, S.LSI Division, Aug 2012 – Aug 2014
+- Samsung Electronics, S.LSI Division, Aug 2012 – Aug 2014
   - Performance Evaluation Software Engineer
       - Conducted the performance evaluation for next-gen SoC by utilizing performance simulator.
       - Identified optimal design parameters, such as reorder buffer size, Quality of Service (QoS) level on NoC
-### LG Electronics, South Korea May 2010 – Mar 2012
+- LG Electronics, South Korea May 2010 – Mar 2012
   - System Software Engineer
       - Conducted the board bring-up with a TV SoC chip, addressing system-level issues through collaboration with hardware and software developers.
       - Achieved a 20% speed-up in system booting time by loop unrolling and rescheduling the OS kernel module initialization sequence.
