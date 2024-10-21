@@ -6,3 +6,15 @@ title: Jaewon's Website
 logo: /img/Jaewon.jpg
 description: CS Ph.D Student @ Georgia Institute of Technology
 show_downloads: False
+
+include:
+  - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+
+# Add links with icons
+header_links:
+  - title: '<i class="fab fa-google-scholar"></i>'
+    url: https://scholar.google.com/citations?user=your_google_scholar_id
+  - title: '<i class="fab fa-linkedin"></i>'
+    url: https://www.linkedin.com/in/your_linkedin_id
+  - title: '<i class="fab fa-github"></i>'
+    url: https://github.com/your_github_username
