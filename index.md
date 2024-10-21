@@ -1,34 +1,42 @@
-## Job Title
-Computer Architect, System Software Engineer
-
 ## About Me
-Hi, I'm Jaewon, a 6th-year CS Ph.D. student at Georgia Tech, supervised by Professor Hyesoon Kim. 
-I am enthusiastic about finding the optimal architecture to ensure security. 
-In particular, I am interested in providing memory safety through hardware/software co-designed methods. 
-I also worked as an SoC Platform Architect with over 4 years of experience in productizing 11+ SoCs (System-on-Chips) for the Mobile, Automotive, and IoT markets, focusing on PPA analysis, 
-followed by more than 3 years of experience in performance evaluation on SoCs.
-
-## Highlighted Research Publication
-•Jaewon Lee, Y Kim, J Cao, E Kim, J Lee, and Hyesoon Kim. 2022. Securing GPU via region-based bounds checking. In
-Proceedings of the 49th Annual International Symposium on Computer Architecture (ISCA '22). Association for
-Computing Machinery, New York, NY, USA, 27–41. **Nominated for the Best Paper Award**.
-
-## Work Experience
-- Samsung Electronics, S.LSI Division, Sep 2014 – Aug 2019
-  - SoC Architect
-      - Evaluated PPA impact of newly introduced storage and interface components such as UFS, PCIe, USB.
-      - Awards: Selected for the Ph.D Fellowship program which is awarded to one out of 9000 employees.
-- Samsung Electronics, S.LSI Division, Aug 2012 – Aug 2014
-  - Performance Evaluation Software Engineer
-      - Conducted the performance evaluation for next-gen SoC by utilizing performance simulator.
-      - Identified optimal design parameters, such as reorder buffer size, Quality of Service (QoS) level on NoC
-- LG Electronics, South Korea May 2010 – Mar 2012
-  - System Software Engineer
-      - Conducted the board bring-up with a TV SoC chip, addressing system-level issues through collaboration with hardware and software developers.
-      - Achieved a 20% speed-up in system booting time by loop unrolling and rescheduling the OS kernel module initialization sequence.
-      - Managed the software infrastructure, overseeing software version control and the compiling framework.
+Hi, I'm Jaewon, a 6th-year Ph.D. candidate in Computer Science at Georgia Tech, advised by Professor Hyesoon Kim. 
+My research focuses on computer architecture, specifically optimizing memory safety mechanisms for GPUs through hardware/software co-design.
+I also have over five years of experience as an SoC Performance Architect in Samsung S.LSI, where I specialized in SoC performance simulation and optimization.
 
 ## EDUCATION
-- **Aug 2019 – Present:** CS Ph.D. @ Georgia Institute of Technology
-    Topic: HW/SW codesign for Secure GPU Architecture
-- **Aug 2022 – Jul 2024:**  CS M.S. (Specialized in Machine learning)
+**Georgia Institute of Technology**, Aug 2019 – Present.
+- Doctor of Philosophy (PhD), Computer Science
+- Advisor: Hyesoon Kim
+- Specilized in Computer Architecture.
+
+**Research Focus**: Computer Architecture with a focus on GPU and security.
+  - Developed the first hardware-software co-designed GPU memory safety mechanism.
+  - Leveraged LLVM static-time analysis for kernel buffer identification and metadata access minimization.
+  - Designed runtime library support for secure, dynamic bounds table management.
+  - Hardware runtime bounds checking using a two-level bounds cache and min-max address coalescing.
+  - **Aug 2022 – Jul 2024:**  CS M.S. (Specialized in Machine learning)
+
+**Georgia Institute of Technology**, Aug 2019 – Present.
+  - Master of Science (MS), Computer Science
+  - Specilized in Machine Learning.
+
+## Work Experience
+**SoC Performance Architect**, Samsung S.LSI -- South Korea, Sep 2014 – Aug 2019
+- Led pre-silicon performance simulation and optimization for SoC architecture, with a focus on system parameter tuning to achieve optimal performance.
+- Designed traffic generators to model memory access patterns for multimedia IPs, improving simulation accuracy.
+- Optimized Network-on-Chip (NoC) reorder buffer size by analyzing real-time memory access patterns of manager IPs, reducing NoC area by 11%.
+- Enhanced an in-house cycle-accurate simulator by implementing Transaction-level Modeling (TLM) synchronization, significantly speeding up simulation performance.
+- Conducted post-silicon power and performance characterization on ARM-based Linux/Android platforms using benchmarks such as SPEC2017 and CoreMark, along with tools like ADB and NI DAQ.
+
+## Highlighted Research Publication
+- **Jaewon Lee**, Yonghae Kim, Jaishen Cao, Euna Kim, Jaekyu Lee, Hyesoon Kim. 2022. [Securing GPU via region-based bounds checking.](https://dl.acm.org/doi/abs/10.1145/3470496.3527420) (ISCA '22). In Proceedings of the 49th Annual International Symposium on Computer Architecture. Association for Computing Machinery, New York, NY, USA, 27–41. **Nominated for the Best Paper Award**.
+- Ruobing Han, **Jaewon Lee**, Jaewoong Sim, Hyesoon Kim. 2022. [COX: Exposing CUDA Warp-Level Functions to CPUs](https://dl.acm.org/doi/full/10.1145/3554736) (TACO '22). ACM Transactions on Architecture and Code Optimization.
+- **Jaewon Lee**, Hanning Chen, Jeffrey Young, [Hyesoon Kim ISC-V FPGA Platform Toward ROS-Based Robotics Applications](https://ieeexplore.ieee.org/abstract/document/9221616) (FPL '20 Workshop). 2020 30th International Conference on Field-Programmable Logic and Applications.
+
+## Opensource Projects
+[Vortex: OpenCL-Compatible RISC-V GPGPU](https://vortex.cc.gatech.edu)
+- Designed a 32b/64b virtual memory system for Vortex SimX, a C++ cycle-level simulator.
+- Implemented virtual-to-physical page mapping and a page table walk mechanism.
+[Macsim: Heterogeneous CPU/GPU Architecture Simulator](https://github.com/gthparch/macsim/)
+- Modeled virtual-to-physical address translations in the GPU, including TLB support.
+- Enabled Macsim to parse NVIDIA GPU traces generated by NVBit.
