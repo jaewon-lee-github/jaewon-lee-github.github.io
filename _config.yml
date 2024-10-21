@@ -13,8 +13,8 @@ include:
 # Add links with icons
 header_links:
   - title: '<i class="fab fa-google-scholar"></i>'
-    url: https://scholar.google.com/citations?user=your_google_scholar_id
+    url: https://scholar.google.com/citations?user=7_u7PNEAAAAJ&hl=en
   - title: '<i class="fab fa-linkedin"></i>'
-    url: https://www.linkedin.com/in/your_linkedin_id
+    url: https://www.linkedin.com/in/jaewon-lee-7ba96aa/
   - title: '<i class="fab fa-github"></i>'
-    url: https://github.com/your_github_username
+    url: https://github.com/jaewon-lee-github
