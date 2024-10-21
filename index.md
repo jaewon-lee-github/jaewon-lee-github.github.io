@@ -14,9 +14,8 @@ I also have over five years of experience as an SoC Performance Architect in Sam
   - Leveraged LLVM static-time analysis for kernel buffer identification and metadata access minimization.
   - Designed runtime library support for secure, dynamic bounds table management.
   - Hardware runtime bounds checking using a two-level bounds cache and min-max address coalescing.
-  - **Aug 2022 – Jul 2024:**  CS M.S. (Specialized in Machine learning)
 
-**Georgia Institute of Technology**, Aug 2019 – Present.
+**Georgia Institute of Technology**, Aug 2022 – Jul 2024.
   - Master of Science (MS), Computer Science
   - Specilized in Machine Learning.
 
